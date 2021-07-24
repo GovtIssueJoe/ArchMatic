@@ -30,7 +30,7 @@ reboot
 
 ```bash
 pacman -S --noconfirm pacman-contrib curl git
-git clone https://github.com/johnynfulleffect/ArchMatic
+git clone https://github.com/govtissuejoe/ArchMatic
 cd ArchMatic
 sh 0-setup.sh
 sh 1-base.sh
@@ -43,7 +43,8 @@ sh 9-post-setup.sh
 ```
 
 ### System Description
-This runs Awesome Window Manager with the base configuration from the Material-Awesome project <https://github.com/ChrisTitusTech/material-awesome>.
+This runs KDE Plasma as the Desktop Environment.
+<!-- This runs Awesome Window Manager with the base configuration from the Material-Awesome project <https://github.com/ChrisTitusTech/material-awesome>. -->
 
 To boot I use `systemd` because it's minimalist, comes built-in, and since the Linux kernel has an EFI image, all we need is a way to execute it.
 
