@@ -62,7 +62,7 @@ mount -t vfat "${DISK}p1" /mnt/boot/
 echo "--------------------------------------"
 echo "-- Arch Install on Main Drive       --"
 echo "--------------------------------------"
-pacstrap /mnt base base-devel --noconfirm --needed
+pacstrap /mnt base base-devel reflector --noconfirm --needed
 
 # kernel
 pacstrap /mnt linux linux-firmware --noconfirm --needed
