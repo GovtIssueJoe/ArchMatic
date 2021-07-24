@@ -12,14 +12,14 @@ echo "Setting up software                              "
 echo "-------------------------------------------------"
 
 # Configure awesome-wm
-git clone https://github.com/ChrisTitusTech/material-awesome.git ~/.config/awesome
+# git clone https://github.com/ChrisTitusTech/material-awesome.git ~/.config/awesome
 
-lxappearance
+# lxappearance
 
-sed -i 's/^gtk-theme-name=Adwaita/gtk-theme-name=Materia-dark/' ~/.config/gtk-3.0/settings.ini
-sed -i 's/^gtk-icon-theme-name=Adwaita/gtk-icon-theme-name=Papirus-Dark/' ~/.config/gtk-3.0/settings.ini
+# sed -i 's/^gtk-theme-name=Adwaita/gtk-theme-name=Materia-dark/' ~/.config/gtk-3.0/settings.ini
+# sed -i 's/^gtk-icon-theme-name=Adwaita/gtk-icon-theme-name=Papirus-Dark/' ~/.config/gtk-3.0/settings.ini
 
-echo 'awesome.restart()' | awesome-client
+# echo 'awesome.restart()' | awesome-client
 
 # Configure zsh
 touch "$HOME/.cache/zshhistory"

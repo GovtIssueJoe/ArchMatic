@@ -39,7 +39,7 @@ PKGS=(
     'unzip'                   # Zip compression program
     'wget'                    # Remote content retrieval
     'terminator'              # Terminal emulator
-    'vim'                     # Terminal Editor
+    'zile'                    # Terminal Editor
     'zenity'                  # Display graphical dialog boxes via shell scripts
     'zip'                     # Zip compression program
     'zsh'                     # Interactive shell
@@ -57,7 +57,7 @@ PKGS=(
     'gedit'                 # Text editor
     'clang'                 # C Lang compiler
     'cmake'                 # Cross-platform open-source make system
-    'code'                  # Visual Studio Code
+    # 'code'                  # Visual Studio Code
     'electron'              # Cross-platform development using Javascript
     'git'                   # Version control system
     'gcc'                   # C/C++ compiler
@@ -72,6 +72,8 @@ PKGS=(
 
     'celluloid'             # Video player
     'feh'                   # Image viewer
+    'firefox'               # Web Browser
+    'discord'               # Chat for Gamers
 
     # PRODUCTIVITY --------------------------------------------------------
 

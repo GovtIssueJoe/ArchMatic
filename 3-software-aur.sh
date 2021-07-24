@@ -29,7 +29,7 @@ PKGS=(
 
     # COMMUNICATIONS ------------------------------------------------------
 
-    'brave-bin'                 # Brave
+    # 'brave-bin'                 # Brave
 
     # THEMES --------------------------------------------------------------
 
@@ -41,8 +41,8 @@ PKGS=(
 
     # APPS ----------------------------------------------------------------
 
-    'discord'                       # Chat for gamers
-    'youtubemusic-nativefier'        # Music
+    # 'discord'                       # Chat for gamers -- why is this AUR???
+    # 'youtubemusic-nativefier'       # Music
 
 )
 

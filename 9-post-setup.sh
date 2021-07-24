@@ -87,16 +87,16 @@ EOF
 
 # ------------------------------------------------------------------------
 
-echo
-echo "Enable AMD Tear Free"
+# echo
+# echo "Enable AMD Tear Free"
 
-sudo cat <<EOF > /etc/X11/xorg.conf.d/20-amdgpu.conf
-Section "Device"
-     Identifier "AMD"
-     Driver "amdgpu"
-     Option "TearFree" "true"
-EndSection
-EOF
+# sudo cat <<EOF > /etc/X11/xorg.conf.d/20-amdgpu.conf
+# Section "Device"
+#      Identifier "AMD"
+#      Driver "amdgpu"
+#      Option "TearFree" "true"
+# EndSection
+# EOF
 
 # ------------------------------------------------------------------------
 echo
@@ -136,17 +136,17 @@ sudo systemctl enable cronie.service
 
 # ------------------------------------------------------------------------
 
-echo
-echo "Enabling bluetooth daemon and setting it to auto-start"
+# echo
+# echo "Enabling bluetooth daemon and setting it to auto-start"
 
-sudo sed -i 's|#AutoEnable=false|AutoEnable=true|g' /etc/bluetooth/main.conf
+# sudo sed -i 's|#AutoEnable=false|AutoEnable=true|g' /etc/bluetooth/main.conf
 
-# Fix bluetooth on Bose QC 35 - https://gist.github.com/andrealmar/f509bf56fea4af285f34ab3c12a58ce9
-sudo btmgmt ssp of
-sudo gpasswd -a john lp
+# # Fix bluetooth on Bose QC 35 - https://gist.github.com/andrealmar/f509bf56fea4af285f34ab3c12a58ce9
+# sudo btmgmt ssp of
+# sudo gpasswd -a john lp
 
-sudo systemctl enable bluetooth.service
-sudo systemctl start bluetooth.service
+# sudo systemctl enable bluetooth.service
+# sudo systemctl start bluetooth.service
 
 # ------------------------------------------------------------------------
 
