@@ -30,6 +30,7 @@ PKGS=(
     # COMMUNICATIONS ------------------------------------------------------
 
     # 'brave-bin'                 # Brave
+    'nyxt'                      # Keeboard-focused browser
 
     # THEMES --------------------------------------------------------------
 

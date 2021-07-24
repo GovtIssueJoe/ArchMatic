@@ -51,6 +51,8 @@ PKGS=(
     'nautilus'              # Filesystem browser
     'variety'               # Wallpaper changer
     'clamav'                # Anti-virus
+    'nextcloud-client'      # Self-hosted cloud
+    'keepassxc'             # Password manager
 
     # DEVELOPMENT ---------------------------------------------------------
 
@@ -74,6 +76,11 @@ PKGS=(
     'feh'                   # Image viewer
     'firefox'               # Web Browser
     'discord'               # Chat for Gamers
+    'steam'                 # Game platform
+    'lutris'                # Wine game manager
+    'wine-staging'          # Windows programs on linux
+    'wine-gecko'            # Wine IE
+    'wine-mono'             # Wine .NET
 
     # PRODUCTIVITY --------------------------------------------------------
 
